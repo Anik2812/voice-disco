@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Disco Lights with Voice Control</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="disco-container">
+        <div id="disco-ball"></div>
+        <div id="light-beams"></div>
+    </div>
+    <div id="control-panel">
+        <h1>Virtual Disco</h1>
+        <button id="voice-btn" class="glow-btn">Start Voice Recognition</button>
+        <div id="color-buttons">
+            <button class="color-btn" data-color="red"></button>
+            <button class="color-btn" data-color="green"></button>
+            <button class="color-btn" data-color="blue"></button>
+            <button class="color-btn" data-color="yellow"></button>
+            <button class="color-btn" data-color="purple"></button>
+        </div>
+        <div id="effect-buttons">
+            <button id="strobe-btn" class="effect-btn">Strobe</button>
+            <button id="rainbow-btn" class="effect-btn">Rainbow</button>
+            <button id="pulse-btn" class="effect-btn">Pulse</button>
+        </div>
+        <button id="off-btn" class="glow-btn">Turn Off</button>
+    </div>
+    <div id="status">Status: Ready to disco!</div>
+    <script src="script.js"></script>
+</body>
+</html>
